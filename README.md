@@ -7,7 +7,7 @@ Check out [RabbitMQ's](http://www.rabbitmq.com/tutorials/tutorial-three-python.h
 ##Listeners
 If you want to test this stuff out on your local machine, you'll need to first install erlang and rabbitmq. Then clone this repo and install the node deps with `npm install`.
 
-Fire up the example listeners:
+Fire up the example listeners (NOTE: The AMQP PHP lib will need to be installed w/ `composer install` first):
 ```bash
 php Listeners/php/listener.php
 node Listeners/nodejs/listener.js
