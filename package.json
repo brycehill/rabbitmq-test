@@ -1,0 +1,13 @@
+{
+  "name": "rabbitmq-test",
+  "version": "0.0.0",
+  "description": "POC w/ RabbitMQ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bryce Hill",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.0"
+  }
+}
